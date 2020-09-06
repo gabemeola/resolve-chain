@@ -1,0 +1,30 @@
+{
+  "name": "resolve-chain",
+  "version": "1.0.0",
+  "description": "Chains pending promises and captures resolved return values",
+  "main": "lib/index.js",
+  "repository": "https://github.com/gabemeola/resolve-chain",
+  "author": "Gabe M",
+  "license": "MIT",
+  "files": [
+    "lib"
+  ],
+  "keywords": [
+    "promise",
+    "p-chain",
+    "pending",
+    "resolve",
+    "chain",
+    "group",
+    "waitgroup"
+  ],
+  "scripts": {
+    "build": "tsc -p .",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^26.4.2",
+    "ts-jest": "^26.3.0",
+    "typescript": "^4.0.2"
+  }
+}

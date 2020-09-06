@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "ES2019", // Node 12
+    "allowJs": false,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "sourceMap": true,
+    "declaration": true,
+    "lib": [
+      "esnext",
+    ],
+    "outDir": "./lib",
+    "baseUrl": "./src",
+  },
+  "exclude": [
+    "node_modules",
+    "__tests__",
+    "**/*.test.ts",
+    "**/*.test.tsx"
+  ]
+}
