@@ -1,16 +1,17 @@
 {
   "compilerOptions": {
     "target": "ES2019", // Node 12
+    "pretty": true,
     "allowJs": false,
     "skipLibCheck": true,
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
     "strict": true,
     "forceConsistentCasingInFileNames": true,
-    "module": "esnext",
+    "module": "CommonJS",
     "moduleResolution": "node",
     "resolveJsonModule": true,
-    "sourceMap": true,
+    "sourceMap": false,
     "declaration": true,
     "lib": [
       "esnext",

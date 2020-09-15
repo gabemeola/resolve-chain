@@ -1,8 +1,9 @@
 {
   "name": "resolve-chain",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Chains pending promises and captures resolved return values",
   "main": "lib/index.js",
+  "module": "lib/esm/index.js",
   "repository": "https://github.com/gabemeola/resolve-chain",
   "author": "Gabe M",
   "license": "MIT",
@@ -20,6 +21,8 @@
   ],
   "scripts": {
     "build": "tsc -p .",
+    "build:esm": "yarn build -m esnext --outDir ./lib/esm",
+    "build:prod": "yarn build && yarn build:esm",
     "test": "jest"
   },
   "devDependencies": {
